@@ -56,11 +56,10 @@ p {
 }
 
 .profile{
-  justify-content: flex-start;
+  display: flex;
 }
 
 .description {
-  flex-direction: column;
   text-align: left;
 }
 
