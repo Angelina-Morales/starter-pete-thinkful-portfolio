@@ -40,9 +40,28 @@ article div {
   width: 100%;
 }
 
+.art {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  flex-grow:0;
+}
+
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+  font-size: 14px;
+}
+
+.profile{
+  justify-content: flex-start;
+}
+
+.description {
+  flex-direction: column;
+  text-align: left;
 }
 
 /* Links */
